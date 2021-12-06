@@ -63,4 +63,4 @@ target/
 .DS_Store
 
 #Project conf
-/venv
+venv/
