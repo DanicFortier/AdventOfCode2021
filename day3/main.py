@@ -1,5 +1,6 @@
 import os
 
+
 def readInput(str_filename):
     __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
@@ -11,12 +12,12 @@ def readInput(str_filename):
 
     return int_lst
 
+
 def bin_to_dec(lst_bin):
     summ = 0
     for i in range(len(lst_bin)):
         summ += int(lst_bin[len(lst_bin) - i - 1]) * 2**i
     return summ
-
 
 
 def co2_analyse_rec(lst_numbers, bit_index):
